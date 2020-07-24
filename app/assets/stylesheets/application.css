@@ -13,3 +13,49 @@
  *= require_tree .
  *= require_self
  */
+
+ *{
+ 	margin:0;
+ 	padding:0;
+ 	box-sizing:border-box;
+ }
+
+.crearfix::after{
+	display:block;
+	content:"";
+	clear:both;
+}
+header{
+	height:100px;
+	width:100%;
+}
+.title{
+	height:70px;
+	width:100%;
+}
+.list-title{
+	width:20%;
+}
+.list-body{
+	width:60%;
+}
+.list-link{
+	width:20%;
+}
+.box{
+	width:100%;
+}
+td{
+	text-align: center;
+}
+}
+.book-title{
+	width:20%;
+}
+.book-body{
+	width:60%;
+}
+.link{
+	width:20%;
+}
+
